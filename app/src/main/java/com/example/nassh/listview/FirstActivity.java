@@ -92,8 +92,6 @@ public class FirstActivity extends AppCompatActivity {
         });
 
     }
-
-
     class CustomAdaptor extends BaseAdapter{
         @Override
         public int getCount() {
