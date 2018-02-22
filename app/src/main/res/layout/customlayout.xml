@@ -55,7 +55,8 @@
         android:layout_marginRight="11dp"
         android:text="22:22"
         android:textAlignment="textEnd"
-        android:textStyle="normal" />
+        android:textStyle="normal"
+        android:gravity="end" />
 
 
 </RelativeLayout>

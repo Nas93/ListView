@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -12,7 +13,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.URL;
+
 public class FirstActivity extends AppCompatActivity {
+
 
     ListView mlistView ;
 
@@ -30,6 +34,7 @@ public class FirstActivity extends AppCompatActivity {
             "Rumky",
             "Sudha"
     };
+
 
     String[] detail = {
             "ajnfj sdklnldk",
@@ -62,7 +67,7 @@ public class FirstActivity extends AppCompatActivity {
                 switch (position){
                     case 0:
                         Toast.makeText(FirstActivity.this, "Anny" , Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent (FirstActivity.this, Istiyak.class);
+                        Intent intent = new Intent (FirstActivity.this, YoutubeActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
